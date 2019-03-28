@@ -1,0 +1,50 @@
+/*
+ Theme Name:     Twentyseventeen Child Theme
+ Theme URI:      Theme URI: https://wordpress.org/themes/twentyseventeen/
+ Description:    Twentyseventeen Child Theme
+ Author:         Zachary Jose
+ Author URI:     https://www.zacharyjose.com
+ Template:       twentyseventeen
+ Version:        1.0.0
+*/
+
+
+
+/*--------------------------------------------------------------
+>>> Table des modules:
+----------------------------------------------------------------
+# Variable
+# mixins-master
+# Normalize
+# Animation
+# Typography
+# Elements
+# Forms
+# Navigation
+    ## Links
+    ## Menus*/
+
+/*--------------------------------------------------------------
+# Variables
+--------------------------------------------------------------*/
+/*@import "sass/variables-site/variables-site";*/
+
+/*--------------------------------------------------------------
+# Mixins
+--------------------------------------------------------------*/
+/*@import "sass/mixins/mixins-master";*/
+
+/*--------------------------------------------------------------
+# layout
+--------------------------------------------------------------*/
+@import "sass/layout/layout";
+
+/*--------------------------------------------------------------
+# animation
+--------------------------------------------------------------*/
+@import "sass/animation/animation";
+
+/*--------------------------------------------------------------
+# site
+--------------------------------------------------------------*/
+/*@import "sass/site/site";*/

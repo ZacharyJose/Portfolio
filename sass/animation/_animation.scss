@@ -1,0 +1,362 @@
+/* Animation des barres de compétences */
+
+.competences {
+	/*text-align: center;*/
+	line-height: 50px;
+	}
+	
+	.skillbar {
+		text-align: center;
+		position:relative;
+		display:block;
+		margin-bottom:15px;
+		width:100%;
+		background:linear-gradient(to right, #F2FFFF , #557293);
+		height:35px;
+		border-radius:3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+		-webkit-transition:0.4s linear;
+		-moz-transition:0.4s linear;
+		-ms-transition:0.4s linear;
+		-o-transition:0.4s linear;
+		transition:0.4s linear;
+		-webkit-transition-property:width, background-color;
+		-moz-transition-property:width, background-color;
+		-ms-transition-property:width, background-color;
+		-o-transition-property:width, background-color;
+		transition-property:width, background-color;
+	}
+	
+	/* After Effects */
+	.skillbar-afterfx {
+		position:absolute;
+		top:0;
+		left:0;
+		padding-top: 7px;
+		width:110px;
+		height: 35px;
+		font-weight:bold;
+		font-size:13px;
+		color:#ca89ff;
+		background:#6adcfa;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:4px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+		transition-duration: inherit;
+	}
+	
+	.skillbar-afterfx:hover {
+		position:absolute;
+		top:0;
+		left:0;
+		width:579px;
+		height: 35px;
+		font-weight:bold;
+		font-size:13px;
+		color:#ffffff;
+		background:#6adcfa;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:4px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+		transition-duration: 2s;
+	}
+	
+	/* Premiere Pro */
+	.skillbar-premiere {
+		position:absolute;
+		top:0;
+		left:0;
+		padding-top: 7px;
+		width:110px;
+		height: 35px;
+		font-weight:bold;
+		font-size:13px;
+		color:#ca89ff;
+		background:#6adcfa;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:4px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+		transition-duration: inherit;
+	}
+	
+	.skillbar-premiere:hover {
+		position:absolute;
+		top:0;
+		left:0;
+		width:514px;
+		height: 35px;
+		font-weight:bold;
+		font-size:13px;
+		color:#ffffff;
+		background:#6adcfa;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:4px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+		transition-duration: 2s;
+	}
+	
+	/* Maya */
+	.skillbar-maya {
+		position:absolute;
+		top:0;
+		left:0;
+		padding-top: 7px;
+		width:110px;
+		height: 35px;
+		font-weight:bold;
+		font-size:13px;
+		color:#63CDC9;
+		background:#6adcfa;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:4px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+		transition-duration: inherit;
+	}
+	
+	.skillbar-maya:hover {
+		position:absolute;
+		top:0;
+		left:0;
+		width:579px;
+		height: 35px;
+		font-weight:bold;
+		font-size:13px;
+		color:#ffffff;
+		background:#6adcfa;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:4px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+		transition-duration: 2s;
+	}
+	
+	/* Houdini */
+	.skillbar-houdini {
+		position:absolute;
+		top:0;
+		left:0;
+		padding-top: 7px;
+		width:110px;
+		height: 35px;
+		font-weight:bold;
+		font-size:13px;
+		color:#E4A262;
+		background:#6adcfa;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:4px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+		transition-duration: inherit;
+	}
+	
+	.skillbar-houdini:hover {
+		position:absolute;
+		top:0;
+		left:0;
+		width:451px;
+		height: 35px;
+		font-weight:bold;
+		font-size:13px;
+		color:#ffffff;
+		background:#6adcfa;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:4px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+		transition-duration: 2s;
+	}
+	
+	/* Cinema 4D */
+	.skillbar-cinema {
+		position:absolute;
+		top:0;
+		left:0;
+		padding-top: 7px;
+		width:110px;
+		height: 35px;
+		font-weight:bold;
+		font-size:13px;
+		color: #386ef7;
+		background:#6adcfa;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:4px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+		transition-duration: inherit;
+	}
+	
+	.skillbar-cinema:hover {
+		position:absolute;
+		top:0;
+		left:0;
+		width:514px;
+		height: 35px;
+		font-weight:bold;
+		font-size:13px;
+		color:#ffffff;
+		background:#6adcfa;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:4px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+		transition-duration: 2s;
+	}
+	
+	/* Photoshop */
+	.skillbar-photoshop {
+		position:absolute;
+		top:0;
+		left:0;
+		padding-top: 7px;
+		width:110px;
+		height: 35px;
+		font-weight:bold;
+		font-size:13px;
+		color:#7CD0E9;
+		background:#6adcfa;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:4px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+		transition-duration: inherit;
+	}
+	
+	.skillbar-photoshop:hover {
+		position:absolute;
+		top:0;
+		left:0;
+		width:483px;;
+		height: 35px;
+		font-weight:bold;
+		font-size:13px;
+		color:#ffffff;
+		background:#6adcfa;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:4px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+		transition-duration: 2s;
+	}
+	
+	/* Illustrator */
+	.skillbar-illustrator {
+		position:absolute;
+		top:0;
+		left:0;
+		padding-top: 7px;
+		width:110px;
+		height: 35px;
+		font-weight:bold;
+		font-size:13px;
+		color:#F4A830;
+		background:#6adcfa;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:4px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+		transition-duration: inherit;
+	}
+	
+	.skillbar-illustrator:hover {
+		position:absolute;
+		top:0;
+		left:0;
+		width:418px;
+		height: 35px;
+		font-weight:bold;
+		font-size:13px;
+		color:#ffffff;
+		background:#6adcfa;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:4px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+		transition-duration: 2s;
+	}
+	
+	/* Logic Pro */
+	.skillbar-logic {
+		position:absolute;
+		top:0;
+		left:0;
+		padding-top: 7px;
+		width:110px;
+		height: 35px;
+		font-weight:bold;
+		font-size:13px;
+		color:#CBD3DB;
+		background:#6adcfa;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:4px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+		transition-duration: inherit;
+	}
+	
+	.skillbar-logic:hover {
+		position:absolute;
+		top:0;
+		left:0;
+		width:483px;;
+		height: 35px;
+		font-weight:bold;
+		font-size:13px;
+		color:#ffffff;
+		background:#6adcfa;
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:4px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+		border-top-left-radius:3px;
+		border-bottom-left-radius:3px;
+		transition-duration: 2s;
+	}
+
+/*#line_l{
+	-webkit-animation: line_l_animation 3s infinite;
+	animation: line_l_animation 3s infinite;
+  }
+  
+  @-webkit-keyframes line_l_animation {
+	  0%   {left: calc(2% + 50px); width: 0px;}
+	  35%   {left: calc(2% + 0px); width: 50px;}
+	  70%   {left: calc(2% + 0px); width: 0px;}
+	  100%   {left: calc(2% + 0px); width: 0px;}
+  }
+*/

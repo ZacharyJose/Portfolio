@@ -1,0 +1,153 @@
+/*
+ Theme Name:     Twentyseventeen Child Theme
+ Theme URI:      Theme URI: https://wordpress.org/themes/twentyseventeen/
+ Description:    Twentyseventeen Child Theme
+ Author:         Zachary Jose
+ Author URI:     https://www.zacharyjose.com
+ Template:       twentyseventeen
+ Version:        1.0.0
+*/
+ 
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+
+/* === STYLE DE LA PAGE D'ACCUEIL === */
+
+/* Style de l'entête */
+.entry-header {
+	margin-top:-22px;
+	text-align:center;
+	
+}
+
+div .custom-header-media {
+	opacity: 0.5;	
+	transition-duration: 1s;	
+	filter: blur(7px);
+	}
+	
+div .custom-header-media:hover {
+	opacity: 1;	
+	filter: blur(0px);
+	transition-duration: 1s;
+	}
+	
+/* Style Image Mise à la une */
+	
+div .panel-image {
+		opacity:0.5;
+		transition-duration:.5s;
+		
+	}
+
+
+/* Style des barres de compétences */
+.skillbar-title span {
+	display:block;
+	background:rgba(0, 0, 0, 0.1);
+	padding:0 20px;
+	height:35px;
+	line-height:35px;
+	-webkit-border-top-left-radius:3px;
+	-webkit-border-bottom-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-top-left-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.skillbar-bar {
+	height:35px;
+	width:0px;
+	background:#6adcfa;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+.skill-bar-percent {
+	position:absolute;
+	right:10px;
+	top:0;
+	font-size:14px;
+	height:35px;
+	line-height:35px;
+	color:white;
+	
+}
+
+
+
+/* === STYLE AFFECTANT TOUTES LES PAGES (Global) === */
+
+/* Couleur de fond de page */
+.page:not(.home) #content {
+    background-color: #f0ffff;
+}
+
+/* Centrer le texte */
+h2, h3, h4 {
+	text-align: center;
+}
+
+/* Titres en gras */
+h3 {
+	font-weight: bold;
+}
+
+/* Styles des paragraphes */
+p {
+	color: black;
+	text-align:center;
+	transform: scale(1.2);
+    padding: 2px;
+}
+
+/* Couleurs */
+body.colors-custom, .colors-custom .navigation-top, .colors-custom .main-navigation ul {
+    background: 	#e6e6fa;
+
+}
+
+/*
+.panel-content {
+	background-color: #f0ffff;
+}
+*/
+
+div .panel-image:hover {
+
+	opacity:1;
+	transition-duration:.5s;
+}
+
+.edit-link {
+	opacity:0;
+}
+
+.site-info {
+	opacity:0;
+}
+
+/* Footer */
+#colophon {
+	background-color: #567393;
+	
+}
+
+/** === Test du Layout === */
+/*
+#page {
+	width: 100%;
+}
+
+.site-content {
+	overflow: hidden;
+	color:  lightblue;
+    background-color: darkcyan;
+}
+
+*/
+
+
